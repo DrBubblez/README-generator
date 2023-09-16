@@ -1,5 +1,6 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+// This file contains the markdown template for the README file.
+
+// This function returns the license badge based on which license is passed in.
 function renderLicenseBadge(license) {
   if (license === "MIT") {
     return "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)"
@@ -14,8 +15,7 @@ function renderLicenseBadge(license) {
   }
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+// This function returns the license link based on which license is passed in.
 function renderLicenseLink(license) {
   if (license === "MIT") {
     return "https://opensource.org/licenses/MIT"
@@ -34,8 +34,7 @@ function renderLicenseLink(license) {
   }
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+// This function returns the license section of README based on which license is passed in.
 function renderLicenseSection(license) {
   if (license === "None") {
     return ""
@@ -46,7 +45,9 @@ function renderLicenseSection(license) {
   }
 }
 
-// TODO: Create a function to generate markdown for README
+// This function generates markdown for README.
+// The template will be populated with user input from the command line.
+// The template will be written to the new README.md file.
 function generateMarkdown(data) {
 return `# ${data.title}
 ${renderLicenseBadge(data.license)}

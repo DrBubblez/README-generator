@@ -6,7 +6,7 @@ The application will be invoked with the following command: `node index.js`. The
 information pertaining to the project the README is for. The README will be populated with the answers to the prompts. This README was generated
 using this application.
 ## Demo Video
-[Click Me!](https://www.youtube.com/watch?v=9QX6Z3Z6Z0M)
+[Click Me!](https://youtu.be/DjHZXRMZxPc)
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
